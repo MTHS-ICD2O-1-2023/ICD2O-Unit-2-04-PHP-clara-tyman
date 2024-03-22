@@ -36,7 +36,7 @@
           $heightOfTriangle = $_POST["height-of-triangle"];
 
           // process
-          $area = $baseLengthOfTriangle * $heightOfTriangle / 2;
+          $area = ($baseLengthOfTriangle * $heightOfTriangle) / 2;
 
           // output
           echo "If a triangle has base length = " . $baseLengthOfTriangle . " cm and the height = " . $heightOfTriangle . " cm:";
